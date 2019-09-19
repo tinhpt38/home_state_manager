@@ -71,3 +71,10 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: Cochin
+      fonts:
+          - asset: fonts/asset/Cochin.ttf
+          - asset: fonts/asset/CochinBold.ttf
+          - weight: 700
+          
