@@ -1,3 +1,3 @@
 class AppFonts{
-  static const cochin = "Cochin";
+  static const openSands = "OpenSands";
 }

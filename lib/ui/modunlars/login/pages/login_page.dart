@@ -21,7 +21,12 @@ class _LoginPageState extends State<LoginPage> {
             gradient: AppColors.linearGradientBackground
           ),
           alignment: Alignment.center,
-          child: Text("Login"),
+          child: Column(
+            children: <Widget>[
+              Text("Quản lý Homestay",style: TextStyle(color: Colors.white,fontSize: 36),)
+              
+            ],
+          ),
         ),
       ),
     );

@@ -72,9 +72,13 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
   fonts:
-    - family: Cochin
+    - family: OpenSands
       fonts:
-          - asset: fonts/asset/Cochin.ttf
-          - asset: fonts/asset/CochinBold.ttf
-          - weight: 700
+          - asset: fonts/asset/OpenSans-Bold.ttf
+          - asset: fonts/asset/OpenSans-BoldItalic.ttf
+          - asset: fonts/asset/OpenSans-Regular.ttf
+          - asset: fonts/asset/OpenSans-RegularItalic.ttf
+          - asset: fonts/asset/OpenSans-SemiBold.ttf
+          - asset: fonts/asset/OpenSans-SemiBoldItalic.ttf
+        
           

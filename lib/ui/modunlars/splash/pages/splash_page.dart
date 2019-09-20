@@ -18,7 +18,7 @@ class _SplashPageState extends State<SplashPage> {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((dur){
         Future.delayed(Duration(seconds: 2),(){
-          SplashRoute.goLogin(context);
+          // SplashRoute.goLogin(context);
         });
     });
   }
@@ -41,7 +41,7 @@ class _SplashPageState extends State<SplashPage> {
                 top: size.height * 0.3,
                 left: 0,
                 right: 0,
-                child: Text("Homestay\n Manager",textAlign: TextAlign.center,style: AppStyle.largerStyle)),
+                child: Text("Quản lý\nHomestay",textAlign: TextAlign.center,style: AppStyle.largerStyle)),
               Positioned(
                 bottom: 32,
                 left: 0,
